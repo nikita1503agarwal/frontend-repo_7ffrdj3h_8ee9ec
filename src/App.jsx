@@ -5,10 +5,12 @@ import Services from './components/Services';
 import Work from './components/Work';
 import Approach from './components/Approach';
 import CTA from './components/CTA';
+import Background from './components/Background';
 
 function App() {
   return (
-    <div className="min-h-screen bg-black text-white">
+    <div className="min-h-screen bg-black text-white relative">
+      <Background />
       <Navbar />
       <Hero />
       <Marquee />

@@ -15,14 +15,15 @@
   html {
     font-family: var(--font-sans);
     font-feature-settings: "rlig" 1, "calt" 1;
+    background-color: #000;
   }
 
   body {
-    @apply antialiased;
+    @apply antialiased bg-black text-white;
   }
 }
 
-/* Custom utility classes for shadcn/ui patterns */
+/* Custom utility classes */
 @layer utilities {
   .animate-in {
     animation-name: animateIn;
@@ -43,4 +44,28 @@
     --tw-exit-translate-x: initial;
     --tw-exit-translate-y: initial;
   }
+
+  @keyframes float-slow {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+  }
+  .animate-float-slow { animation: float-slow 10s ease-in-out infinite; }
+
+  @keyframes float-slower {
+    0%, 100% { transform: translateY(0px) translateX(0); }
+    50% { transform: translateY(-6px) translateX(4px); }
+  }
+  .animate-float-slower { animation: float-slower 14s ease-in-out infinite; }
+
+  @keyframes float-slowest {
+    0%, 100% { transform: translateY(0px) translateX(0); }
+    50% { transform: translateY(-4px) translateX(-3px); }
+  }
+  .animate-float-slowest { animation: float-slowest 18s ease-in-out infinite; }
+
+  @keyframes rotate-slower {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+  .animate-rotate-slower { animation: rotate-slower 24s linear infinite; }
 }
