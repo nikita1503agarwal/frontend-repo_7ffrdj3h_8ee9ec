@@ -2,20 +2,20 @@ import { motion } from 'framer-motion';
 
 const steps = [
   {
-    title: 'Map constraints',
-    desc: 'Quant + qual audit to locate the highest-leverage constraints across your funnel.'
+    title: 'Diagnose',
+    desc: 'Quant + qual audit to map the funnel, uncover constraints, and align on business outcomes.'
   },
   {
-    title: 'Design experiments',
-    desc: 'Hypothesis matrix and creative system to test fast and learn faster.'
+    title: 'Hypothesize',
+    desc: 'Create a testing roadmap across creative, channels, and conversion with clear success criteria.'
   },
   {
-    title: 'Build the stack',
-    desc: 'Tracking, automation, and content pipelines that scale with confidence.'
+    title: 'Deploy',
+    desc: 'Launch paid, content, and lifecycle plays with clean tracking, automation, and fast feedback loops.'
   },
   {
-    title: 'Compound results',
-    desc: 'We iterate weekly, capturing learnings and reinvesting into the next cycle.'
+    title: 'Compound',
+    desc: 'Capture learnings weekly, scale winners, and reinvest into the next cycle for durable growth.'
   }
 ];
 
@@ -25,9 +25,9 @@ export default function Approach() {
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid md:grid-cols-2 gap-10">
           <div>
-            <h2 className="text-3xl md:text-4xl font-bold text-white">Our approach</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-white">How we market</h2>
             <p className="mt-4 text-white/70 max-w-xl">
-              Strategy meets systems. We build machines that learn, then let the data guide the path to outsized outcomes.
+              We build learning machines. Strategy sets the aim, systems do the heavy lifting, and data decides the next move.
             </p>
           </div>
 

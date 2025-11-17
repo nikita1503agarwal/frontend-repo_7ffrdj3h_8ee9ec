@@ -5,22 +5,22 @@ const services = [
   {
     icon: Zap,
     title: 'Growth Engineering',
-    desc: 'Performance ecosystems across paid, organic, and lifecycle. Built for compounding yield.'
+    desc: 'Acquisition + lifecycle systems across paid, organic, and partnerships. Built for compounding yield.'
   },
   {
     icon: Radar,
     title: 'Creative Systems',
-    desc: 'Modular ad and content systems driven by rapid experimentation and data signal.'
+    desc: 'Concept → iteration → scale. Modular ads and content guided by signal, not guesswork.'
   },
   {
     icon: Globe,
     title: 'Web Experience',
-    desc: '3D, real-time, and AI-enhanced sites designed to convert curiosity into customers.'
+    desc: 'High‑velocity landing pages and 3D web that turn qualified traffic into conversions.'
   },
   {
     icon: Layers,
     title: 'Automation',
-    desc: 'Low-latency pipelines that turn raw attention into revenue with minimal human lift.'
+    desc: 'Attribution, lead routing, and enrichment that connect your stack and cut CAC.'
   }
 ];
 
@@ -31,10 +31,18 @@ export default function Services() {
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid md:grid-cols-2 gap-12 items-start">
           <div>
-            <h2 className="text-3xl md:text-4xl font-bold text-white">Services that compound</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-white">Marketing services that move the needle</h2>
             <p className="mt-4 text-white/70 max-w-xl">
-              Every engagement is a system. We identify constraints, design experiments, and build the stack that unlocks sustainable growth.
+              We identify constraints, design experiments, and deploy a full‑funnel strategy that compounds. Clear hypotheses, rapid testing, measurable lift.
             </p>
+            <ul className="mt-6 grid sm:grid-cols-2 gap-3 text-sm text-white/60">
+              <li>• Paid social/search media</li>
+              <li>• Creative testing sprints</li>
+              <li>• CRO & landing systems</li>
+              <li>• Email/SMS lifecycle</li>
+              <li>• Attribution & analytics</li>
+              <li>• Sales enablement</li>
+            </ul>
           </div>
 
           <div className="grid sm:grid-cols-2 gap-6">
@@ -51,7 +59,7 @@ export default function Services() {
                   <Icon className="h-5 w-5 text-white" />
                 </div>
                 <h3 className="mt-4 text-white font-semibold">{title}</h3>
-                <p className="mt-2 text-white/70 text-sm">{desc}</p>
+                <p className="mt-2 text-white/70 text-sm leading-relaxed">{desc}</p>
               </motion.div>
             ))}
           </div>

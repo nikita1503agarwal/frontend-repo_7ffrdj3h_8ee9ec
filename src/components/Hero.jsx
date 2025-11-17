@@ -19,21 +19,35 @@ export default function Hero() {
         >
           <span className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs uppercase tracking-widest text-white/70">
             <span className="h-1.5 w-1.5 rounded-full bg-fuchsia-500 animate-pulse" />
-            Waka Marketing
+            Waka Marketing — Growth Agency
           </span>
           <h1 className="mt-6 text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight text-white leading-[1.1]">
-            Complex, futuristic growth systems for ambitious brands
+            Full‑funnel marketing systems that convert attention into revenue
           </h1>
-          <p className="mt-6 text-lg text-white/70">
-            We design campaigns, experiences, and automation that convert attention into revenue. Our approach blends story, systems, and cutting-edge 3D to put your brand years ahead.
+          <p className="mt-6 text-lg text-white/80">
+            We blend strategy, creative, media, and automation to build predictable demand engines. From first impression to loyal customer, every touchpoint is designed to compound.
           </p>
           <div className="mt-8 flex flex-wrap items-center gap-3">
             <a href="#contact" className="pointer-events-auto inline-flex items-center justify-center rounded-full bg-white text-black px-6 py-3 font-medium hover:bg-white/90 transition">
-              Start a project
+              Request a growth plan
             </a>
             <a href="#work" className="pointer-events-auto inline-flex items-center justify-center rounded-full border border-white/20 text-white px-6 py-3 font-medium hover:bg-white/10 transition">
-              See our work
+              See case studies
             </a>
+          </div>
+          <div className="mt-6 grid grid-cols-3 gap-6 text-xs text-white/60">
+            <div>
+              <div className="text-white font-semibold">+318%</div>
+              YoY revenue lift
+            </div>
+            <div>
+              <div className="text-white font-semibold">-41%</div>
+              CAC reduction
+            </div>
+            <div>
+              <div className="text-white font-semibold">7.2x</div>
+              Paid media ROAS
+            </div>
           </div>
         </motion.div>
       </div>
